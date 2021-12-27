@@ -7,7 +7,7 @@ on:
 jobs:
   release-candidate:
     name: Candidate
-    if: ${{ github.repository == 'primer/css' }}
+    if: ${{ github.repository == 'evetv/mahogany' }}
 
     runs-on: ubuntu-latest
     steps:
