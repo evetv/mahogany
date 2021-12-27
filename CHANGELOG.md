@@ -1,4 +1,4 @@
-# @primer/css
+# @evetv/css
 
 ## 1.0.1
 
