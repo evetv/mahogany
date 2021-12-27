@@ -17,10 +17,10 @@ const encoding = 'utf8'
 // Bundle paths are normalized in getPathName() using dirname() and then
 // replacing any slashes with hyphens, but some bundles need to be
 // special-cased. Keys in this object are the path minus the "src/" prefix,
-// and values are the bundle file base name. ("primer" produces
-// "dist/primer.css", etc.)
+// and values are the bundle file base name. ("mahogany" produces
+// "dist/mahogany.css", etc.)
 const bundleNames = {
-  'index.scss': 'primer'
+  'index.scss': 'mahogany'
 }
 
 async function dist() {
@@ -40,12 +40,12 @@ async function dist() {
       const meta = {
         name,
         source: from,
-        sass: `@primer/css/${path}`,
+        sass: `@evetv/css/${path}`,
         css: to,
         map: `${to}.map`,
         js: join(outDir, `${name}.js`),
         stats: join(statsDir, `${name}.json`),
-        legacy: `primer-${name}/index.scss`
+        legacy: `mahogany-${name}/index.scss`
       }
 
       const scss = await readFile(from, encoding)

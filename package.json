@@ -1,23 +1,23 @@
 {
-  "name": "@primer/css",
-  "version": "19.1.1",
-  "description": "The CSS implementation of GitHub's Primer Design System",
-  "homepage": "https://primer.style/css",
-  "author": "GitHub, Inc.",
+  "name": "@evetv/css",
+  "version": "1.0.0",
+  "description": "Eve's Custom Fork of GitHub's Primer CSS Framework",
+  "homepage": "https://github.com/evetv/mahogany",
+  "author": "Eve",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "license": "MIT",
-  "style": "dist/primer.css",
+  "style": "dist/mahogany.css",
   "sass": "index.scss",
   "type": "module",
-  "main": "dist/primer.js",
-  "repository": "https://github.com/primer/css",
+  "main": "dist/mahogany.js",
+  "repository": "https://github.com/evetv/mahogany",
   "bugs": {
-    "url": "https://github.com/primer/css/issues"
+    "url": "https://github.com/evetv/mahogany/issues"
   },
   "keywords": [
-    "primer",
+    "mahogany",
     "css",
     "github",
     "design-system"

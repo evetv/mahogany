@@ -19,7 +19,7 @@ function diffLists(before, after) {
 }
 
 function getSelectors(versionPath) {
-  const stats = JSON.parse(fs.readFileSync(join(versionPath, './stats/primer.json')))
+  const stats = JSON.parse(fs.readFileSync(join(versionPath, './stats/mahogany.json')))
   return stats.selectors.values
 }
 
