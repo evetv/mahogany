@@ -6,7 +6,7 @@ import fs from 'fs'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const currentPath = join(__dirname, '../../')
-const lastPath = join(__dirname, '../../tmp/node_modules/@primer/css')
+const lastPath = join(__dirname, '../../tmp/node_modules/@evetv/css')
 
 function diffLists(before, after) {
   const added = [...new Set(after.filter(value => !before.includes(value)))]
