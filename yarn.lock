@@ -967,9 +967,9 @@
     fastq "^1.6.0"
 
 "@primer/primitives@^7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.4.0.tgz#75df54a80233a432b687c0e3010e4be6bd60a82d"
-  integrity sha512-gD6yHXN7YKox/bdUNgxhoSS/WXZVaORK1r4dOAyTrdoPrLV/ucIfRInPyVcTF+Mqr0zcTFJtiMtuA5Y8CSyOEg==
+  version "7.15.15"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-7.15.15.tgz#11c84e55d936a5509edc37a8ce6a29f9033026a0"
+  integrity sha512-K9fPgKVBtdmBMl+lHKUK4ctsRf+DUUKdJYEHnFhkua71m9FORK16ycJ4gHDpc4g/0xgNvEwQ9/ArsV1i8w3ZmQ==
 
 "@primer/stylelint-config@12.2.0":
   version "12.2.0"
