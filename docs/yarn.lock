@@ -2329,7 +2329,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-actions@6.4.9", "@storybook/addon-actions@^6.4.9":
+"@storybook/addon-actions@6.4.9":
   version "6.4.9"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.4.9.tgz#1d4e8c00ad304efe6722043dac759f4716b515ee"
   integrity sha512-L1N66p/vr+wPUBfrH3qffjNAcWSS/wvuL370T7cWxALA9LLA8yY9U2EpITc5btuCC5QOxApCeyHkFnrBhNa94g==
@@ -2352,6 +2352,11 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
     uuid-browser "^3.1.0"
+
+"@storybook/addon-actions@^9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-9.0.3.tgz#12627ae1e11da636fd05f07d0a5139ac337a842a"
+  integrity sha512-FcBwxBB5EVmt4qaA1enWvyDHlXwS/2Pdbj59rZ9NRTXJgLM1WT+Zdv96HwXOR68gzvQkqTI1Fth7tmECHUyuQg==
 
 "@storybook/addon-backgrounds@6.4.9":
   version "6.4.9"
