@@ -37,7 +37,7 @@
     "postcss-simple-vars": "6.0.3",
     "prop-types": "^15.7.2",
     "raw-loader": "^4.0.2",
-    "react": "^16.13.1",
+    "react": "^19.3.0",
     "react-dom": "^16.13.1",
     "react-frame-component": "^5.2.1",
     "sass-loader": "12.4.0",
